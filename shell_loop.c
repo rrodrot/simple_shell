@@ -91,7 +91,7 @@ void find_cmd(info_t *info)
 	info->path = info->argv[0];
 	if (info->linecount_flag == 1)
 	{
-		info->linecount++;
+		info->line_count++;
 		info->linecount_flag = 0;
 	}
 	for (i = 0, k = 0; info->arg[i]; i++)

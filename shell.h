@@ -46,7 +46,7 @@ typedef struct liststr
 {
 	int num;
 	char *str;
-	struct liststr *next
+	struct liststr *next;
 } list_t;
 
 /**
@@ -128,7 +128,7 @@ int loophsh(char **);
 void _eputs(char *);
 int _eputchar(char);
 int _putfd(char c, int fd);
-int_putsfd(char *str, int fd);
+int _putsfd(char *str, int fd);
 
 /* toem_string.c */
 int _strlen(char *);
